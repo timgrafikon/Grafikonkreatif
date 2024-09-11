@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           if (count < target) {
               counter.innerText = Math.ceil(count + increment);
-              setTimeout(updateCount, 25); // Adjust timeout to control the animation speed
+              setTimeout(updateCount, 40); // Adjust timeout to control the animation speed
           } else {
               counter.innerText = target;
           }
