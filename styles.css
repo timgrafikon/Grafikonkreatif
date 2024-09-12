@@ -353,6 +353,15 @@ nav {
   color: var(--text-light);
 }
 
+.blog button {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .subscribe {
   background-color: var(--secondary-color);
 }
