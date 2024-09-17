@@ -360,6 +360,8 @@ nav {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.4s ease;
+  box-shadow: 0 0 5px #ffffff;
 }
 
 .subscribe {
