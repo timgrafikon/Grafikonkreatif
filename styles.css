@@ -112,10 +112,10 @@ body {
 header {
   background-image: linear-gradient(
       to right,
-      rgba(211, 207, 207, 0.5),
-      rgba(167, 165, 165, 0.8)
+      rgba(112, 112, 112, 0.5),
+      rgba(49, 49, 49, 0.8)
     ),
-    url("assets/banner-header.jpg");
+    url("assets/Banner\ Head.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,12 +282,9 @@ nav {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.5),
-      rgba(167, 165, 165, 0.8)
+      rgba(0, 0, 0, 0.8)
     ),
-    url("assets/why.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    url("assets/Banner\ Head.jpg");
 }
 
 .banner__content {
