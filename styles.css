@@ -116,9 +116,6 @@ header {
       rgba(49, 49, 49, 0.8)
     ),
     url("assets/Banner\ Head.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 nav {
@@ -284,7 +281,10 @@ nav {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.8)
     ),
-    url("assets/Banner\ Head.jpg");
+    url("assets/why.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner__content {
