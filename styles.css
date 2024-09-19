@@ -110,11 +110,7 @@ body {
 }
 
 header {
-  background-image: 
-    url("assets/Banner\ Head.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--secondary-color);
 }
 
 nav {
@@ -129,7 +125,7 @@ nav {
 .nav__logo a {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--white);
 }
 
 .nav__links {
@@ -143,7 +139,7 @@ nav {
   padding: 5px;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--white);
   transition: 0.3s;
 }
 
@@ -622,6 +618,7 @@ nav {
 }
 
 @media (width < 900px) {
+  
   .nav__links {
     gap: 1.5rem;
   }
