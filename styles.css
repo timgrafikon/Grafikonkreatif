@@ -177,9 +177,26 @@ nav {
   padding-block: 1;
 }
 
+.narik__content span {
+  font-size: 50px;
+  color: red;
+
+}
+
+.narik__content h1 span{
+  color: green;
+  font-size: 50px;
+  padding: 13px 20px;
+}
+
+.narik__list {
+  display: grid;
+  gap: 2rem;
+}
+
 .narik__grid {
   padding: 2rem;
-  display: block;
+  display: grid;
   gap: 4rem;
   align-items: center;
   background-color: var(--secondary-color-light);
@@ -203,8 +220,6 @@ nav {
   font-size: 25 px;
   text-align: center;
 }
-
-
 
 .about {
   background-color: var(--secondary-color);
@@ -615,7 +630,11 @@ nav {
 }
 
 @media (width < 900px) {
-  
+
+  .header{
+    padding: 50px;
+  }
+
   .nav__links {
     gap: 1.5rem;
   }
