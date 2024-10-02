@@ -221,6 +221,17 @@ nav {
   text-align: center;
 }
 
+.narik button {
+  color: var(--black);
+  background-color: var#ffffff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  box-shadow: 0 0 5px #8d8b8b;
+}
+
 .about {
   background-color: var(--secondary-color);
 }
@@ -231,8 +242,6 @@ nav {
 
 .about__grid {
   padding: 2rem;
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
   gap: 4rem;
   align-items: center;
   background-color: var(--primary-color);
@@ -247,6 +256,7 @@ nav {
 .about__content .para {
   color: var(--text-light);
   text-align: left;
+  font-size: 1.40rem;
 }
 
 .about__list {
@@ -341,11 +351,6 @@ nav {
 
 .banner__content .section__header {
   margin-bottom: 1rem;
-}
-
-.banner__content .para {
-  max-width: 600px;
-  margin-bottom: 2rem;
 }
 
 .banner__btns {
@@ -583,15 +588,7 @@ nav {
 }
 
 .login-form {
-  background-image: linear-gradient(
-      to right,
-      #1baae0,
-      white
-    ),
-    url("assets/satu.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
   padding: 30px 0;
