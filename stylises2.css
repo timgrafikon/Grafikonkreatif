@@ -72,13 +72,19 @@ body {
     margin-bottom: 1rem;
     border-radius: 5px;
     gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
 }   
 
 .gallery-images img {
     margin-bottom: 1rem;
     border-radius: 5px;
     padding: 10px;
+    width: 100%;
 }
+
 
 
 /* Footer */
@@ -109,7 +115,7 @@ footer a {
     }
 
     .gallery-images img {
-        width: 90%;
+        width: 100%;
         margin-bottom: 10px;
     }
 }
