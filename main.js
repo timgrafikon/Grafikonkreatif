@@ -20,6 +20,11 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
+ScrollReveal().reveal(".stats__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
 // header container
 ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
@@ -36,12 +41,15 @@ ScrollReveal().reveal(".about__item", {
   interval: 500,
 });
 
-
-
 // blog container
 ScrollReveal().reveal(".blog__card", {
   ...scrollRevealOption,
   interval: 500,
+});
+
+// newlayout1
+ScrollReveal().reveal(".hero-text h1", {
+  ...scrollRevealOption,
 });
 
 const swiper = new Swiper(".swiper", {
@@ -50,9 +58,6 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
   },
 });
-
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
   const counters = document.querySelectorAll('.counter');
@@ -67,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           if (count < target) {
               counter.innerText = Math.ceil(count + increment);
-              setTimeout(updateCount, 50); // Adjust timeout to control the animation speed
+              setTimeout(updateCount, 30); // Adjust timeout to control the animation speed
           } else {
               counter.innerText = target;
           }
